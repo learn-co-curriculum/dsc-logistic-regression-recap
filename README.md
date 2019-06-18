@@ -18,7 +18,6 @@ You will be able to:
 
 One of the nuances you saw in maximum likelihood estimation was that of log likelihoods. Recall that the purpose of taking log likelihoods as opposed to likelihoods themselves, is that it allows us to decompose the product of probabilities as sums of log probabilities. Analytically, this is essential to calculating subsequent gradients in order to find next steps for our optimization algorithm.
 
-
 ## Local Minimums in Gradient Descent
 
 One of the most important notes from this section is that **gradient descent does not guarantee an optimal solution**. Gradient descent is meant to find optimal solutions, but it only guarantees a local minimum. For this reason, gradient descent is frequently run multiple times, and the parameters with the lowest loss function then being selected for the final model.
