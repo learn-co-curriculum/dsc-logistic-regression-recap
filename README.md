@@ -9,7 +9,6 @@ In this recap, you'll review a couple of common key points of confusion.
 ## Objectives
 
 You will be able to:
-
 * Explain reasoning and intuition behind log-likelihood
 * Explain caveats of gradient descent
 * Explain logistic regression at a high level
