@@ -9,6 +9,7 @@ In this recap, you'll review a couple of common key points of confusion.
 ## Objectives
 
 You will be able to:
+
 * Explain reasoning and intuition behind log-likelihood
 * Explain caveats of gradient descent
 * Explain logistic regression at a high level
@@ -16,6 +17,7 @@ You will be able to:
 ## Log Likelihoods in Maximum Likelihood Estimation
 
 One of the nuances you saw in maximum likelihood estimation was that of log likelihoods. Recall that the purpose of taking log likelihoods as opposed to likelihoods themselves, is that it allows us to decompose the product of probabilities as sums of log probabilities. Analytically, this is essential to calculating subsequent gradients in order to find next steps for our optimization algorithm.
+
 
 ## Local Minimums in Gradient Descent
 
